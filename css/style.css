@@ -3,8 +3,35 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: #1E1E1E;
 }
 @font-face {
     font-family: Poppins;
     src: url(../fonts/Poppins-Regular.ttf);
+}
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+.profile-logo-img{
+    width: 300px;
+    height: 300px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.links ul{
+    display: flex;
+    column-gap: 20px;
+    
+}
+.links a{
+    color: #fff;
 }
