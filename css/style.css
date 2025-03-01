@@ -7,7 +7,7 @@
     list-style-type: none;
 }
 body{
-    background-color: #1E1E1E;
+    background-color: black;
 }
 @font-face {
     font-family: Poppins;
@@ -34,4 +34,39 @@ body{
 }
 .links a{
     color: #fff;
+}
+.main-header-text{
+    color: #fff;
+    font-size: 16px;
+}
+.main-header-title-and-img{
+    position: relative;
+    display: flex;
+}
+.main-header-text-title{
+    position: relative;
+    top: 100px;
+}
+.main-header-name{
+    color: #FD6F00;
+    
+}
+.main-header-job{
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    font-size: 70px;
+}
+.main-header-job2{
+    color: #fff;
+    padding: 0px 0px 30px 0px;
+    margin-left: 150px;
+    font-size: 70px;
+}
+.main-header-desc{
+    max-width: 498px;
+    line-height: 25px;
+    color: #fff;
+}
+.img-back{
+    margin-left: 50px;
 }
